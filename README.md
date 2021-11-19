@@ -20,7 +20,7 @@ limitations under the License.
 
 # Dirname
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > [Regular expression][regexp] to capture a [POSIX][posix] path [dirname][dirname].
 
@@ -117,9 +117,9 @@ dir = RE_DIRNAME_POSIX.exec( './foo/bar/.gitignore' )[ 1 ];
 
 ## See Also
 
--   [`@stdlib/regexp/dirname`][@stdlib/regexp/dirname]: return a regular expression to capture a path dirname.
--   [`@stdlib/regexp/dirname-windows`][@stdlib/regexp/dirname-windows]: return a regular expression to capture a Windows path dirname.
--   [`@stdlib/utils/dirname`][@stdlib/utils/dirname]: return a directory name.
+-   <span class="package-name">[`@stdlib/regexp/dirname`][@stdlib/regexp/dirname]</span><span class="delimiter">: </span><span class="description">return a regular expression to capture a path dirname.</span>
+-   <span class="package-name">[`@stdlib/regexp/dirname-windows`][@stdlib/regexp/dirname-windows]</span><span class="delimiter">: </span><span class="description">return a regular expression to capture a Windows path dirname.</span>
+-   <span class="package-name">[`@stdlib/utils/dirname`][@stdlib/utils/dirname]</span><span class="delimiter">: </span><span class="description">return a directory name.</span>
 
 </section>
 
@@ -170,8 +170,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/regexp-dirname-posix/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/regexp-dirname-posix?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/regexp-dirname-posix.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/regexp-dirname-posix/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
