@@ -24,20 +24,30 @@ limitations under the License.
 
 > [Regular expression][regexp] to capture a [POSIX][posix] path [dirname][dirname].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/regexp-dirname-posix
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import reDirnamePosix from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-posix@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-posix@deno/mod.js';
+var reDirnamePosix = require( '@stdlib/regexp-dirname-posix' );
 ```
 
 #### reDirnamePosix()
@@ -70,7 +80,7 @@ var dir = reDirnamePosix.REGEXP.exec( 'foo/bar/index.js' )[ 1 ];
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import reDirnamePosix from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-posix@deno/mod.js';
+var reDirnamePosix = require( '@stdlib/regexp-dirname-posix' );
 
 var RE_DIRNAME_POSIX = reDirnamePosix();
 var dir;
@@ -115,9 +125,9 @@ dir = RE_DIRNAME_POSIX.exec( './foo/bar/.gitignore' )[ 1 ];
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/regexp/dirname`][@stdlib/regexp/dirname]</span><span class="delimiter">: </span><span class="description">return a regular expression to capture a path dirname.</span>
--   <span class="package-name">[`@stdlib/regexp/dirname-windows`][@stdlib/regexp/dirname-windows]</span><span class="delimiter">: </span><span class="description">return a regular expression to capture a Windows path dirname.</span>
--   <span class="package-name">[`@stdlib/utils/dirname`][@stdlib/utils/dirname]</span><span class="delimiter">: </span><span class="description">return a directory name.</span>
+-   <span class="package-name">[`@stdlib/regexp-dirname`][@stdlib/regexp/dirname]</span><span class="delimiter">: </span><span class="description">return a regular expression to capture a path dirname.</span>
+-   <span class="package-name">[`@stdlib/regexp-dirname-windows`][@stdlib/regexp/dirname-windows]</span><span class="delimiter">: </span><span class="description">return a regular expression to capture a Windows path dirname.</span>
+-   <span class="package-name">[`@stdlib/utils-dirname`][@stdlib/utils/dirname]</span><span class="delimiter">: </span><span class="description">return a directory name.</span>
 
 </section>
 
@@ -132,7 +142,7 @@ dir = RE_DIRNAME_POSIX.exec( './foo/bar/.gitignore' )[ 1 ];
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -200,11 +210,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/regexp/dirname]: https://github.com/stdlib-js/regexp-dirname/tree/deno
+[@stdlib/regexp/dirname]: https://github.com/stdlib-js/regexp-dirname
 
-[@stdlib/regexp/dirname-windows]: https://github.com/stdlib-js/regexp-dirname-windows/tree/deno
+[@stdlib/regexp/dirname-windows]: https://github.com/stdlib-js/regexp-dirname-windows
 
-[@stdlib/utils/dirname]: https://github.com/stdlib-js/utils-dirname/tree/deno
+[@stdlib/utils/dirname]: https://github.com/stdlib-js/utils-dirname
 
 <!-- </related-links> -->
 
