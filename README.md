@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reDirnamePosix from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-posix@deno/mod.js';
+import reDirnamePosix from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-posix@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-posix@deno/mod.js';
+import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-posix@v0.1.1-deno/mod.js';
 ```
 
 #### reDirnamePosix()
@@ -81,7 +81,7 @@ var dir = reDirnamePosix.REGEXP.exec( 'foo/bar/index.js' )[ 1 ];
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import reDirnamePosix from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-posix@deno/mod.js';
+import reDirnamePosix from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-posix@v0.1.1-deno/mod.js';
 
 var RE_DIRNAME_POSIX = reDirnamePosix();
 var dir;
