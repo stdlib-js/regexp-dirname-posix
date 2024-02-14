@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reDirnamePosix from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-posix@esm/index.mjs';
+import reDirnamePosix from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-posix@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-posix@esm/index.mjs';
+import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-posix@v0.2.0-esm/index.mjs';
 ```
 
 #### reDirnamePosix()
@@ -86,7 +86,7 @@ var dir = reDirnamePosix.REGEXP.exec( 'foo/bar/index.js' )[ 1 ];
 <body>
 <script type="module">
 
-import reDirnamePosix from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-posix@esm/index.mjs';
+import reDirnamePosix from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname-posix@v0.2.0-esm/index.mjs';
 
 var RE_DIRNAME_POSIX = reDirnamePosix();
 var dir;
